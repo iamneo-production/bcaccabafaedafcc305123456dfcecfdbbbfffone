@@ -13,7 +13,8 @@ function count()
 
         }
         else{
-                count+=1;
+            count+=1;
         }
+        document.getElementById("ans").innerHTML = "wordcount="+count;
     }
 }
